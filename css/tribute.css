@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main{
+    
+  max-width:90% !important;
+  margin:auto !important;
+  padding:35px !important;
+ 
+}
+
+#img-caption{
+    
+  text-align:center;
+  padding:30px;
+  font-size:1.5em;
+  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#img-div{
+    
+    display: block;
+    
+}
+
+
+#img{
+    width:100% !important;
+    
+}
+#books-box{
+    
+    max-width:90% !important;
+    margin:auto !important;
+    padding:10px !important;
+    /*display:flex;
+    justify-content: center;*/
+  
+}
+
+#books-box div{
+    
+    width:50%;
+    padding:25px;
+}
+
+#books-box img {
+    
+    height:500px;
+    width:400px;
+    padding:50px;
+    align-content: center;
+           
+}
+
+#tribute-link{
+   
+   text-align:center;
+   font-size:1.5em;
+   color:teal;
+}
+
+#tribute-link:hover{
+  
+    text-align:center;
+   font-size:2em;
+   color: orange;
+}
+
+.tribute-link{
+  
+    max-width:80% !important;
+  margin:auto !important;
+    
+}
+
+footer{
+    
+    padding:35px;
+    font-size:1.25em;
+}
+
+
+@media (max-width: 575.98px) { 
+   
+#books-box div{
+    
+    width:100%;
+    padding:25px;
+}
+
+    w3-container{
+        width:100%;
+    }
+}
+@media (max-width: 768px) { 
+    w3-container{
+        width:100%;
+    }
+    
+    
+    main{
+    
+  max-width:100% !important;
+  margin:auto !important;
+  padding:25px !important;
+ 
+}
+   
+    
+    #books-box div{
+    width:100%;
+    padding:0px;
+    align-content: center;
+}
+    
+ #books-box img {
+    
+    height:400px;
+    width:300px;
+    padding:0px;
+    
+           
+}   
+    
+}
+@media (max-width: 576px) { 
+    
+  main{
+    
+  max-width:100% !important;
+  margin:auto !important;
+  padding:25px !important;
+ 
+}
+    #books-box img {
+    
+    height:auto;
+    width:auto;
+    padding:0px;
+    align-content: center;
+           
+}   
+ 
+    
+    #books-box div{
+    
+    width:100%;
+    padding:25px;
+}
+    #books-box img {
+    
+    height:400px;
+    width:300px;
+    padding:0px;
+    align-content: center;
+           
+}   
+ 
+}
+
+
+
